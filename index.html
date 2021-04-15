@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Shopping mall</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <!--========== Logo ==========-->
+    <img src="imgs/logo.png" alt="logo" class="logo">
+    
+    <!--========== Buttons ==========-->
+    <div class="buttons">
+    <button class="btn">
+      <img 
+      src="imgs/blue_t.png" 
+      alt="tshirt" 
+      class="imgBtn" 
+      data-key="type" 
+      data-value="tshirt">
+    </button>
+    <button class="btn">
+      <img 
+      src="imgs/blue_p.png" 
+      alt="pants" 
+      class="imgBtn" 
+      data-key="type" 
+      data-value="pants">
+    </button>
+    <button class="btn">
+      <img 
+      src="imgs/blue_s.png" 
+      alt="skirt" 
+      class="imgBtn" 
+      data-key="type" 
+      data-value="skirt">
+    </button>
+    <button class="btn colorBtn blue" 
+      data-key="color" 
+      data-value="blue">
+        Blue
+    </button>
+    <button class="btn colorBtn yellow" 
+      data-key="color" 
+      data-value="yellow">
+        Yellow
+    </button>
+    <button class="btn colorBtn pink" 
+    data-key="color" 
+    data-value="pink">
+      Pink
+    </button>
+    </div>
+
+    <!--========== Items ==========-->
+    <ul class="items">
+      <li class="item">
+        <img src="imgs/blue_t.png" alt="tshirt" class="item_thumbnail">
+        <span class="item_description">male, Large</span>
+      </li>
+    </ul>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
