@@ -1,4 +1,4 @@
-# Shopping-mall-JSON-Fetch-practice
+# Shopping-mall-practice
 
 Things to practice
 
